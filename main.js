@@ -43,7 +43,7 @@
 function printMinNumber() {
     var ARRAY = [];
     for (var i = 0; i < 5; i++) {
-        var fiveNumber = +prompt()
+        var fiveNumber = +prompt("five number")
         ARRAY += fiveNumber
     }
     console.log(Math.min(...ARRAY))
