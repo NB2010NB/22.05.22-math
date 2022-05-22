@@ -24,10 +24,27 @@
 // } console.log(printNumberMassege())
 
 
-function popRandomArray() {
-    var RnnArray = [];
-    for (var i = 0; i < 10; i++) {
-        RnnArray.push(Math.floor(Math.random() * 100));
+// function popRandomArray() {
+//     var RnnArray = [];
+//     for (var i = 0; i < 10; i++) {
+//         RnnArray.push(Math.floor(Math.random() * 100));
+//     }
+//     console.log(RnnArray);
+// }
+
+
+// function maxNumber() {
+//     var num = +prompt()
+//     var mum = Math.max(Math.random() * 10, num)
+//     return Math.max(num,mum)
+// } document.write(maxNumber())
+
+
+function printMinNumber() {
+    var ARRAY = [];
+    for (var i = 0; i < 5; i++) {
+        var fiveNumber = +prompt()
+        ARRAY += fiveNumber
     }
-    console.log(RnnArray);
-}
+    console.log(Math.min(...ARRAY))
+} printMinNumber()
